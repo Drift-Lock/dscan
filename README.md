@@ -1,7 +1,7 @@
-# dscan - Passive domain OSINT specifically for Telegram Bot Sites from a single command. Give it a domain and it pulls together everything reachable from **public** sources - Created by Driftlock.co.uk
+# dscan 
 
-**Requirements** Debian 12
 
+- Passive domain OSINT specifically for Telegram Bot Sites from a single command. Give it a domain and it pulls together everything reachable from **public** sources - Created by Driftlock.co.uk
 - **Registration** — RDAP (modern WHOIS): registrar, **abuse email/phone**, created/updated/expiry, status, DNSSEC.
 - **DNS** — A, AAAA, NS, MX, TXT, SOA, CNAME, CAA, reverse PTR, and DNSSEC presence (via dnspython — no `dig` needed).
 - **Cloudflare** — detects it three ways (NS, live IP ranges, HTTP headers) and tells you whether it's
